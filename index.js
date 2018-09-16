@@ -7,7 +7,7 @@ var dev = require('./routes/dev');
 const sqlite3 = require('sqlite3').verbose();
 let db = new sqlite3.Database('data.db');
 
-var port = 80;
+var port = 5000;
 var server = express();
 
 server.use(bodyParser.json());
